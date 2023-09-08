@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div class="container">
+
+  <form action="/resume/new" method="post">
+    <div class="form-group">
+      <label for="resume">포트폴리오 작성</label>
+<!--      꼭 "resume"가 들어가야함... 왜지?-->
+      <br>
+      <textarea type="text" id="resume" name="resume" cols="30" rows="10" placeholder="입력하세요" ></textarea>
+<!--      <input type="text" id="resume" name="resume" placeholder="입력하세요" >-->
+    </div>
+    <button type="submit">등록</button>
+  </form>
+
+</div>
+
+</body>
+</html>

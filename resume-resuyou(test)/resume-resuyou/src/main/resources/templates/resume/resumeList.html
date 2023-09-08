@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+  <div>
+    <table>
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>resume</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr th:each="resume : ${resumes}">
+        <td th:text="${resume.id}"></td>
+        <td th:text="${resume.resume}"></td>
+<!--        왜 resume.newresume가 아니라 resume.resume가 되는지 모르겠다.....-->
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div> <!-- /container -->
+</body>
+</html>
