@@ -24,7 +24,7 @@ public class MemoryResumeRepository implements ResumeRepository{
     @Override
     public Optional<Resume> findByResume(String newresume) {
         return store.values().stream()
-                .filter(resume -> resume.getResume().equals(newresume))
+                .filter(resume -> resume.getAresume().equals(newresume))
                 .findAny();
     }
 

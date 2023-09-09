@@ -28,7 +28,7 @@ public class ResumeController {
     @PostMapping("/resume/new")
     public String create(ResumeForm form) {
         Resume resume = new Resume();
-        resume.setResume(form.getResume());
+        resume.setAresume(form.getBresume());
 
         resumeService.register(resume);
 

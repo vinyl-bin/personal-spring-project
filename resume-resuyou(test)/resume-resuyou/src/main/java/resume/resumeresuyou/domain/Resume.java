@@ -13,11 +13,11 @@ public class Resume {
         this.id = id;
     }
 
-    public String getResume() {
+    public String getAresume() {
         return newresume;
     }
 
-    public void setResume(String newresume) {
+    public void setAresume(String newresume) {
         this.newresume = newresume;
     }
 }

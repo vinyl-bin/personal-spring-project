@@ -3,11 +3,11 @@ package resume.resumeresuyou.controller;
 public class ResumeForm {
     private String newresume;
 
-    public String getResume() {
+    public String getBresume() {
         return newresume;
     }
 
-    public void setResume(String newresume) {
+    public void setBresume(String newresume) {
         this.newresume = newresume;
     }
 }

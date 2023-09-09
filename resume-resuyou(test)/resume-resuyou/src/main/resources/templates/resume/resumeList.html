@@ -13,8 +13,8 @@
       <tbody>
       <tr th:each="resume : ${resumes}">
         <td th:text="${resume.id}"></td>
-        <td th:text="${resume.resume}"></td>
-<!--        왜 resume.newresume가 아니라 resume.resume가 되는지 모르겠다.....-->
+        <td th:text="${resume.aresume}"></td>
+<!--        .id와 .aresume는 Resume.java에 있는 Resume클래스의 getId와 getAresume 메소드에서 get을 빼고 대문자를 소문자로 바꾼것이다!-->
       </tr>
       </tbody>
     </table>
